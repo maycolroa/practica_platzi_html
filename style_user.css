@@ -29,22 +29,16 @@ body{
     justify-self: center;
     display: none;
 }
-.title{
-font-size: var(--lg);
-margin-bottom: 12px;
-text-align: center;
-}
-.subtitle{
-    color: var(--very-light-pink);
-    font-size: var(--md);
-    font-weight: 300;
-    margin-top: 0;
-    margin-bottom: 30px;
-    text-align: center;
-}
 .form{
     display: flex;
     flex-direction: column;
+}
+.form a {
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
 }
 .label {
     font-size: var(--sm);
@@ -60,11 +54,25 @@ text-align: center;
     padding: 8px;
     margin-bottom: 12px;
 }
+.input_email{
+    margin-bottom: 22px;
+}
 .primary_button_login_button{
     background-color: var(--hospital-green);
     border-radius: 8px;
     border: none;
     color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+.secodary_button_singup_button{
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
     width: 100%;
     cursor: pointer;
     font-size: var(--md);
